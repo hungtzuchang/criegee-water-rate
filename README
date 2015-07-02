@@ -1,0 +1,22 @@
+# Criegee-Water-Rate is a set of codes for analyzing the transient
+# absorption signal of Criegee intermediate while reacting with water
+
+The code is written in Python2, using packages numpy, scipy 
+and matplotlib. Minor modifications must be made to make the 
+codes Python3 compatible. The codes are tested with Python 2.7
+under OSX.
+
+A sample for analyzing the data is written in file 'sample_run.sh',
+a shell script run in Unix-like environment (Linux/BSD). Running the
+script under windows may require Cygwin or modifying the code 
+accordingly for windows command-line.
+
+***Important Note***
+The file 'datastack.py' contains the file number of background and
+signal data. One must first modify the file so that future processes
+may correctly handle the data.
+
+*Sample steps for data analysis
+1. modify 'datastack.py'
+2. run sample_run.sh
+
