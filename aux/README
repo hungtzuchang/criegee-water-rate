@@ -1,0 +1,5 @@
+# This directory contains the auxiliary files to generate
+# figures. 
+
+* process-trace.py --> plots exponential decay traces
+* process-rate-readout.py --> prints exponential decay traces
